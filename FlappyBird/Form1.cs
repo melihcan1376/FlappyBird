@@ -49,7 +49,7 @@ namespace FlappyBird
                 )
             {
                 endGame();
-                System.Media.SoundPlayer player = new System.Media.SoundPlayer(@"sound\mixkit-arcade-retro-game-over-213.wav");
+                System.Media.SoundPlayer player = new System.Media.SoundPlayer(@"..\..\sound\mixkit-arcade-retro-game-over-213.wav");
                 player.Play();
             }
             
@@ -69,7 +69,7 @@ namespace FlappyBird
                 )
             {
                 endGame();
-                System.Media.SoundPlayer player = new System.Media.SoundPlayer(@"sound\mixkit-arcade-retro-game-over-213.wav");
+                System.Media.SoundPlayer player = new System.Media.SoundPlayer(@"..\..\sound\mixkit-arcade-retro-game-over-213.wav");
                 player.Play();
             }
             
@@ -89,7 +89,7 @@ namespace FlappyBird
                 )
             {
                 endGame();
-                System.Media.SoundPlayer player = new System.Media.SoundPlayer(@"sound\mixkit-arcade-retro-game-over-213.wav");
+                System.Media.SoundPlayer player = new System.Media.SoundPlayer(@"..\..\sound\mixkit-arcade-retro-game-over-213.wav");
                 player.Play();
             }
 
@@ -124,8 +124,8 @@ namespace FlappyBird
             if (e.KeyCode == Keys.Space)
             {
                 gravity = 11;
-                System.Media.SoundPlayer player = new System.Media.SoundPlayer(@"sound\mixkit-quick-jump-arcade-game-239.wav");
-                player.Play();
+                System.Media.SoundPlayer player = new System.Media.SoundPlayer(@"..\..\sound\mixkit-quick-jump-arcade-game-239.wav");
+                 player.Play();
             }
         }
         private void endGame()
